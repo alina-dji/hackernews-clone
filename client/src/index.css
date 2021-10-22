@@ -3,13 +3,16 @@
 
 body {
   font-family: "Jost", sans-serif;
-}
-
-#root {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#root {
+  width: 80%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 a {
