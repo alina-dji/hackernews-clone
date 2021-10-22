@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
+import classes from './Header.module.css';
 
 export default function Header() {
     return (
-        <header>
-            <div>
-                <Link to='/'>Hacker News</Link>
-            </div>
-            <nav>
-                <ul>
+        <header className={classes.header}>
+            <Link to='/' className={classes.homelink}>
+                <div className={classes.ybox}>Y</div>
+                <span className={classes.hn}>Hacker news</span>
+            </Link>
+            <nav className={classes.nav}>
+                <ul className={classes.navlinks}>
                     <li><Link to=''>new</Link></li>
                     <li><Link to=''>past</Link></li>
                     <li><Link to=''>comments</Link></li>

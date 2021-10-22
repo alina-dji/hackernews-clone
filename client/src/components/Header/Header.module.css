@@ -1,0 +1,38 @@
+.header {
+  background-color: #ff6600;
+  display: flex;
+  padding: 2px;
+  width: 80%;
+}
+
+.homelink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
+}
+
+.ybox {
+  color: white;
+  font-weight: 600;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hn {
+  font-weight: 600;
+}
+
+.nav {
+  width: 40%;
+  margin-left: 1%;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+}
