@@ -6,7 +6,7 @@ export default function Header() {
         <header className={classes.header}>
             <Link to='/' className={classes.homelink}>
                 <div className={classes.ybox}>Y</div>
-                <span className={classes.hn}>Hacker news</span>
+                <span className={classes.hn}>Hacker News</span>
             </Link>
             <nav className={classes.nav}>
                 <ul className={classes.navlinks}>
